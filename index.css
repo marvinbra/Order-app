@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+} 
+
+.no-clicks {
+    pointer-events: none;
+}
+
+.p {
+    display: none;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 90%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.menu {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.menuCard {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    margin: 50px auto;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.emoji {
+    font-size: 90px;
+    position: relative;
+    padding-top: 0;
+    margin-top: 0;
+    top: -18px;
+    width: 100px;
+}
+
+.item-details {
+    display: flex;
+    gap: 25px;
+}
+
+.name {
+    font-size: 28px;
+    margin-bottom: 9px;
+}
+
+.ingredients {
+    opacity: 0.6;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.buyBtn {
+    margin-left: auto;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background: white;
+    font-size: 32px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buyBtn:hover {
+    background: lightgray;
+}
+
+.threeObj {
+    margin-left: 20px;
+}
+
+.addToOrder {
+    display: flex;
+    font-size: 23px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.order-price {
+    font-size: 24px;
+}
+
+.remove-btn {
+    border: none;
+    font-size: 14px;
+    color: lightseagreen;
+    padding: 5px 10px 4px 10px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background: lightgray;
+}
+
+.order-total {
+    display: none;
+    border-top: 2px solid black;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.total-price {
+    margin-left: auto;
+}
+
+.complete-order-btn {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #16db99;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.payement-modal {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 440px;
+    height: 420px;
+    margin: auto;
+    border-radius: 7px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.payement-modal h3 {
+    font-size: 24px;
+}
+
+.payement-modal input {
+    height: 50px;
+    width: 380px;
+    margin: 10px 24px;
+    padding-left: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.pay-btn {
+    display: block;
+    height: 55px;
+    width: 400px;
+    background: #16db99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.thanks {
+    padding: 50px;
+    text-align: center;
+    color: #065F46;
+    background: #ECFDF5;
+    margin: auto;
+    font-size: 24px;
+}
